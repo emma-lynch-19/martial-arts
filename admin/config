@@ -1,0 +1,17 @@
+backend:
+  name: git-gateway
+  branch: main  # or 'master' if your repo uses that
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "newsletters"
+    label: "Newsletters"
+    folder: "content/newsletters"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Body", name: "body", widget: "markdown" }

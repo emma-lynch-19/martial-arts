@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MartialArts</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="martial_arts.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mozilla+Text:wght@200..700&display=swap" rel="stylesheet">
+</head>
+
+<style>
+    img {max-width: 60%;}
+</style>
+
+    <body>
+         <nav class="navbar navbar-expand-lg bg-light">
+        <a class="navbar-brand" href="home.html">
+            <img src="witham_logo.png" width="81" height="80" alt="Logo"></a>
+            <ul class="navbar-nav">
+            <div class="container-fluid">              
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="hyungs.html">Hyungs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="grades.html">Grades</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownMenuButton1" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Study Materials</a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="studmat_anatomy.html">Anatomy</a></li>
+                            <li><a class="dropdown-item" href="studmat_history.html">History of Tang Soo Do</a></li>
+                            <li><a class="dropdown-item" href="studmat_philosiphy.html">Philosophy of Tang Soo Do</a></li>
+                            <li><a class="dropdown-item" href="studmat_rules.html">Rules in the Dojang</a></li>
+                            <li><a class="dropdown-item" href="studmat_terminology.html">Terminology</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="club_information.html">Club Information</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="event_sign_up.html">Event Sign Up</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="kyushoshin.html">Kyushoshin</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="essays.html">Essays</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="instructors.html">Instructors</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <h2>Terminology</h2>
+        <p id="italics">General terminology</p>
+
+        <table style="width:95%" class="center">
+            <tr>
+                <th style="width:50%">Korean</th>
+                <th style="width:50%">English</th>
+            </tr>
+            <tr>
+                <td>Tang Soo Do</td>
+                <td>Name of the art that we study</td>
+            </tr>
+            <tr>
+                <td>Soo Bahk Do</td>
+                <td>Ancient name of the martial art in Korea</td>
+            </tr>
+            <tr>
+                <td>Kwan Chang Nim</td>
+                <td>Grand Master</td>
+            </tr>
+            <tr>
+                <td>Sa Bom Nim</td>
+                <td>Qualified instructor</td>
+            </tr>
+            <tr>
+                <td>Nim</td>
+                <td>A term of respect (like "sir")</td>
+            </tr>
+            <tr>
+                <td>Dan</td>
+                <td>Degree, holder of blue belt or higher</td>
+            </tr>
+            <tr>
+                <td>Gup</td>
+                <td>Grade, holder of colour belt below blue</td>
+            </tr>
+            <tr>
+                <td>Ko Dan Ja</td>
+                <td>Senior Dan holder</td>
+            </tr>
+            <tr>
+                <td>Yo Dan Ja</td>
+                <td>Dan holder</td>
+            </tr>
+            <tr>
+                <td>Yo Gup Ja</td>
+                <td>Gup holder</td>
+            </tr>
+            <tr>
+                <td>Dojang</td>
+                <td>Training hall</td>
+            </tr>
+            <tr>
+                <td>Dobock</td>
+                <td>Training uniform</td>
+            </tr>
+            <tr>
+                <td>Dee</td>
+                <td>Belt</td>
+            </tr>
+            <tr>
+                <td>Ki Cho</td>
+                <td>Basic</td>
+            </tr>
+            <tr>
+                <td>Hyung</td>
+                <td>Form</td>
+            </tr>
+            <tr>
+                <td>Dae Ryun</td>
+                <td>Sparring</td>
+            </tr>
+            <tr>
+                <td>Ho Sin Sul</td>
+                <td>Self-defence</td>
+            </tr>
+            <tr>
+                <td>Kyok Pa	</td>
+                <td>Breaking techniques</td>
+            </tr>
+            <tr>
+                <td>Soo Kee</td>
+                <td>Hand techniques</td>
+            </tr>
+            <tr>
+                <td>O Rin Jok</td>
+                <td>Right</td>
+            </tr>
+            <tr>
+                <td>Wen Jok	</td>
+                <td>Left</td>
+            </tr>
+        </table>
+
+        <p id="italics">Basic stances</p>
+        <table style="width:95%" class="center">
+            <tr>
+                <th style="width:40%">Korean</th>
+                <th style="width:40%">English</th>
+                <th style="width:20%">Image (click to expand)</th>
+            </tr>
+            <tr>
+                <td>Joon Bee Jase</td>
+                <td>Ready stance</td>
+                <td><img src="terminology_ready_stance.jpg" alt="Ready stance"></td>
+            </tr>
+            <tr>
+                <td>Chon Gul Jase</td>
+                <td>Front stance</td>
+                <td><img src="terminology_front_stance.jpg" alt="Front stance"></td>
+            </tr>
+            <tr>
+                <td>Hu Gul Jase</td>
+                <td>Back stance</td>
+                <td><img src="terminology_back_stance.jpg" alt="Back stance"></td>
+            </tr>
+            <tr>
+                <td>Chwe Ha Dan Jase</td>
+                <td>Low back stance</td>
+                <td><img src="terminology_low_back_stance.jpg" alt="Low back stance"></td>
+            </tr>
+            <tr>
+                <td>Kee Mahk Jase</td>
+                <td>Horse riding stance</td>
+                <td><img src="terminology_horse_riding_stance.jpg" alt="Horse riding stance"></td>
+            </tr>
+            <tr>
+                <td>Sa Go Rip Jase</td>
+                <td>Side stance</td>
+                <td><img src="terminology_side_stance.jpg" alt="Side stance"></td>
+            </tr>
+        </table>
+
+        <p id="italics">Commands during training</p>
+        <table style="width:95%" class="center">
+            <tr>
+                <th style="width:50%">Korean</th>
+                <th style="width:50%">English</th>
+            </tr>
+            <tr>
+                <td>Cha Ryut</td>
+                <td>Attention</td>
+            </tr>
+            <tr>
+                <td>Kyung Yet</td>
+                <td>Bow</td>
+            </tr>
+            <tr>
+                <td>Joon Bee</td>
+                <td>Ready</td>
+            </tr>
+            <tr>
+                <td>Shi-Jak</td>
+                <td>Begin</td>
+            </tr>
+            <tr>
+                <td>Ba Ro</td>
+                <td>Stop/return</td>
+            </tr>
+            <tr>
+                <td>Ku Ryung</td>
+                <td>Count</td>
+            </tr>
+            <tr>
+                <td>Ku Ryung Ae Mat Cho So</td>
+                <td>By the count</td>
+            </tr>
+            <tr>
+                <td>Ku Ryung Up Shi</td>
+                <td>Without count</td>
+            </tr>
+            <tr>
+                <td>Tora</td>
+                <td>Turn</td>
+            </tr>
+            <tr>
+                <td>Dwi Ro Tora</td>
+                <td>Prepare to turn</td>
+            </tr>
+            <tr>
+                <td>Bal Cha Kee Joon Bee</td>
+                <td>Ready for kick</td>
+            </tr>
+        </table> 
+
+        <p id="italics">Numbers</p>
+         <table style="width:95%" class="center">
+            <tr>
+                <th style="width:25%">Korean</th>
+                <th style="width:25%">English</th>
+                <th style="width:25%">Korean</th>
+                <th style="width:25%">English</th>
+            </tr>
+            <tr>
+                <td>Ha-na</td>
+                <td>1</td>
+                <td>Il</td>
+                <td>1st</td>
+            </tr>
+            <tr>
+                <td>Tul</td>
+                <td>2</td>
+                <td>Ee</td>
+                <td>2nd</td>
+            </tr>
+            <tr>
+                <td>Set</td>
+                <td>3</td>
+                <td>Sam</td>
+                <td>3rd</td>
+            </tr>
+            <tr>
+                <td>Net</td>
+                <td>4</td>
+                <td>Sah</td>
+                <td>4th</td>
+            </tr>
+            <tr>
+                <td>Ta-sot</td>
+                <td>5</td>
+                <td>Oh</td>
+                <td>5th</td>
+            </tr>
+            <tr>
+                <td>Ya-sot</td>
+                <td>6</td>
+                <td>Yuk</td>
+                <td>6th</td>
+            </tr>
+            <tr>
+                <td>Il-gop</td>
+                <td>7</td>
+                <td>Chil</td>
+                <td>7th</td>
+            </tr>
+            <tr>
+                <td>Yo-dol</td>
+                <td>8</td>
+                <td>Pal</td>
+                <td>8th</td>
+            </tr>
+            <tr>
+                <td>A-hop</td>
+                <td>9</td>
+                <td>Ku</td>
+                <td>9th</td>
+            </tr>
+            <tr>
+                <td>Yol</td>
+                <td>10</td>
+                <td>Ship</td>
+                <td>10th</td>
+            </tr>
+        </table>
+
+        <p id="italics">Hand techniques (basic)</p>
+            <table style="width:95%" class="center">
+                <tr>
+                    <th style="width:50%">Korean</th>
+                    <th style="width:50%">English</th>
+                </tr>
+                <tr>
+                    <td>Ha Dan Mahk Kee</td>
+                    <td>Low block</td>
+                </tr>
+                <tr>
+                    <td>Sang Dan Mahk Kee</td>
+                    <td>High block</td>
+                </tr>
+                <tr>
+                    <td>Ahn Ye Seo Bahk Euro Mahk Kee</td>
+                    <td>Inside-to-outside block</td>
+                </tr>
+                <tr>
+                    <td>Bahk Ye Seo Ahn Euro Mahk Kee</td>
+                    <td>Outside-to-inside block</td>
+                </tr>
+                <tr>
+                    <td>Tro Ahn Ye Seo Bahk Euro Mahk Kee</td>
+                    <td>Reverse inside-to-outside block</td>
+                </tr>
+                <tr>
+                    <td>Tro Bahk Ye Seo Ahn Euro Mahk Kee</td>
+                    <td>Reverse outside-to-inside block</td>
+                </tr>
+                <tr>
+                    <td>Sang Soo Joong Dan Mahk Kee</td>
+                    <td>Two fist middle block</td>
+                </tr>
+                <tr>
+                    <td>Sang Soo Ha Dan Mahk Kee</td>
+                    <td>Two fist low block</td>
+                </tr>
+                <tr>
+                    <td>Sang Soo Sang Dan Mahk Kee</td>
+                    <td>Two fist high block</td>
+                </tr>
+                <tr>
+                    <td>Soo Do Ha Dan Mahk Kee</td>
+                    <td>Low chop</td>
+                </tr>
+                <tr>
+                    <td>Soo Do Joong Dan Mahk Kee</td>
+                    <td>Centre chop</td>
+                </tr>
+                <tr>
+                    <td>Soo Do Sang Dan Mahk Kee</td>
+                    <td>High chop</td>
+                </tr>
+                <tr>
+                    <td>Joong Dan Kong Kyuk</td>
+                    <td>Centre punch</td>
+                </tr>
+                <tr>
+                    <td>Sang Dan Kong Kyuk</td>
+                    <td>High punch</td>
+                </tr>
+                <tr>
+                    <td>Hoeng Jin Kong Kyuk</td>
+                    <td>Side punch</td>
+                </tr>
+                <tr>
+                    <td>Yuk Jin Kong Kyuk</td>
+                    <td>Reverse punch</td>
+                </tr>
+                <tr>
+                    <td>Kwan Soo Kong Kyuk</td>
+                    <td>Spear hand</td>
+                </tr>
+                <tr>
+                    <td>Pal Koop Kong Kyuk</td>
+                    <td>Elbow</td>
+                </tr>
+            </table>
+
+        <p id="italics">Hand techniques (advanced)</p>
+            <table style="width:95%" class="center">
+                <tr>
+                    <th style="width:50%">Korean</th>
+                    <th style="width:50%">English</th>
+                </tr>
+                <tr>
+                    <td>Kwon Do</td>
+                    <td>Knife fist</td>
+                </tr>
+                <tr>
+                    <td>Joong Kwon</td>
+                    <td>Forefirst</td>
+                </tr>
+                <tr>
+                    <td>Kap Kwon</td>
+                    <td>Backfist</td>
+                </tr>
+                <tr>
+                    <td>Il Ji Kwon</td>
+                    <td>One finger fist</td>
+                </tr>
+                <tr>
+                    <td>Yoo Kwon</td>
+                    <td>Soft fist</td>
+                </tr>
+                <tr>
+                    <td>Jip Kye Shon</td>
+                    <td>Plier hand</td>
+                </tr>
+                <tr>
+                    <td>Yuk Soo Do</td>
+                    <td>Ridge hand</td>
+                </tr>
+                <tr>
+                    <td>Il Ji Kwan Soo</td>
+                    <td>One finger spear hand</td>
+                </tr>
+                <tr>
+                    <td>Ee Ji Kwan Soo</td>
+                    <td>Two finger spear hand</td>
+                </tr>
+                <tr>
+                    <td>Jang Kwon</td>
+                    <td>Heel of hand</td>
+                </tr>
+                <tr>
+                    <td>Son Mok Deung</td>
+                    <td>Upper wrist technique</td>
+                </tr>
+            </table>
+
+        <p id="italics">Leg techniques</p>
+            <table style="width:95%" class="center">
+                <tr>
+                    <th style="width:50%">Korean</th>
+                    <th style="width:50%">English</th>
+                </tr>
+                <tr>
+                    <td>Ap Cha Kee</td>
+                    <td>Front kick</td>
+                </tr>
+                <tr>
+                    <td>Ap Podo Cha Kee</td>
+                    <td>Front snap kick</td>
+                </tr>
+                <tr>
+                    <td>Ap Mee Ro Cha Kee</td>
+                    <td>Front pushing kick</td>
+                </tr>
+                <tr>
+                    <td>Yup Cha Kee</td>
+                    <td>Side kick</td>
+                </tr>
+                <tr>
+                    <td>Yup Podo Cha Kee</td>
+                    <td>Sick snap kick</td>
+                </tr>
+                <tr>
+                    <td>Dull Ryo Cha Kee</td>
+                    <td>Roundhouse kick</td>
+                </tr>
+                <tr>
+                    <td>Dwee Cha Kee</td>
+                    <td>Back kick</td>
+                </tr>
+                <tr>
+                    <td>Ahn Ye Seo Bahk Euro Cha Kee</td>
+                    <td>Inside-to-outside kick</td>
+                </tr>
+                <tr>
+                    <td>Bahk Ye Seo Ahn Euro Cha Kee</td>
+                    <td>Outside-to-inside kick</td>
+                </tr>
+                <tr>
+                    <td>Yup Hu Ri Cha Kee</td>
+                    <td>Hook kick</td>
+                </tr>
+                <tr>
+                    <td>Moo Roop Cha Kee</td>
+                    <td>Knee</td>
+                </tr>
+                <tr>
+                    <td>Bit Cha Kee</td>
+                    <td>Diagonal kick</td>
+                </tr>
+                <tr>
+                    <td>Dwi...</td>
+                    <td>Prefix meaning spinning</td>
+                </tr>
+                <tr>
+                    <td>Deya...</td>
+                    <td>Prefix meaning jumping</td>
+                </tr>
+                <tr>
+                    <td>E-dan...</td>
+                    <td>Prefix meaning skipping</td>
+                </tr>
+            </table>
+
+    </body>
+</html>
