@@ -132,7 +132,7 @@
 
 
 <script>
-    fetch('/content/pages/club_information.md')
+    fetch('content/pages/club_information.md')
     .then(response => response.text())
     .then(text => {
         document.getElementById('cms-body').innerText = body.trim();
