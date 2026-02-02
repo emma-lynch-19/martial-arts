@@ -1,5 +1,1 @@
----
-title: Club Information
----
-
 This is a Korean Karate. While you are learning our techniques for self-defence, you will also be increasing flexibility, strength, memory, and coordination. Our system includes cardiovascular aerobic exercise for the heart and lungs which also helps you to lose weight. Don't worry about your age, or present physical condition. We all start with what we can do. Our class improves patience, respect, mental clarity, concentration, self-discipline, control, and confidence. Giving everyone a strong healthy body with good coordination.
