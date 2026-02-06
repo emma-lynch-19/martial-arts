@@ -138,10 +138,12 @@ fetch('content/pages/club_information.md')
   .then(text => {
     const parts = text.split('---');
     const body = parts.length > 2 ? parts[2].trim() : text.trim();
-    document.getElementById('cms-body').innerText = body;
+
+    document.getElementById('cms-body').innerHTML = marked.parse(body);
   })
   .catch(error => console.error(error));
 </script>
+
 
     </body>
 </html>
