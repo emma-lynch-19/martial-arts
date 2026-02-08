@@ -1,21 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>{{ title }}</title>
-</head>
-<body>
+---
+layout: base.njk
+---
 
+<article>
   <h1>{{ title }}</h1>
+  <p><small>{{ date | readableDate }}</small></p>
+  <div>
+    {{ content | safe }}
+  </div>
+</article>
 
-  <ul>
-    {% for post in collections.posts %}
-      <li>
-        <h2>{{ post.data.title }}</h2>
-        {{ post.content | safe }}
-      </li>
-    {% endfor %}
-  </ul>
-
-</body>
-</html>

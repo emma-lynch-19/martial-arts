@@ -6,10 +6,12 @@ media_folder: "images/uploads"
 public_folder: "/images/uploads"
 
 collections:
-  - name: "newsletters"
-    label: "Newsletters"
-    folder: "content/newsletters"
+  - name: "posts"
+    label: "Posts"
+    folder: "posts"
     create: true
     slug: "{{slug}}"
     fields:
+      - { label: "Title", nameL "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Body", name: "body", widget: "markdown" }
