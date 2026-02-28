@@ -5,6 +5,8 @@ module.exports = function (eleventyConfig) {
   });
 
   return {
+    templateFormats: ["html", "md", "njk"],
+    htmlTemplateEngine: "njk",
     dir: {
       input: ".",
       output: "_site"
