@@ -11,6 +11,7 @@ export default function (eleventyConfig) {
   return {
     dir: {
       input: ".",
+      includes: "_includes",
       output: "_site"
     }
   };
