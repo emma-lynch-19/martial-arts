@@ -1,4 +1,4 @@
-export default function (eleventyConfig) {
+module.exports = function (eleventyConfig) {
 
   eleventyConfig.addFilter("readableDate", (dateObj) => {
     return new Date(dateObj).toLocaleDateString("en-GB", {
@@ -11,8 +11,7 @@ export default function (eleventyConfig) {
   return {
     dir: {
       input: ".",
-      includes: "_includes",
       output: "_site"
     }
   };
-}
+};
