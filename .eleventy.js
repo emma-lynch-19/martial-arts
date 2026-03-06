@@ -1,15 +1,11 @@
-module.exports = function (eleventyConfig) {
+module.exports = function(eleventyConfig) {
 
-  eleventyConfig.addCollection("posts", function (collectionApi) {
-    return collectionApi.getFilteredByGlob("posts/*.md");
+  eleventyConfig.addFilter("readableDate", (dateObj) => {
+    return new Date(dateObj).toLocaleDateString("en-GB", {
+      day: "numeric",
+      month: "long",
+      year: "numeric"
+    });
   });
 
-  return {
-    templateFormats: ["html", "md", "njk"],
-    htmlTemplateEngine: "njk",
-    dir: {
-      input: ".",
-      output: "_site"
-    }
-  };
 };
