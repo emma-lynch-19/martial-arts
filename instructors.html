@@ -11,6 +11,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mozilla+Text:wght@200..700&display=swap" rel="stylesheet">
+    <script>
+    /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+    function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+    }
+    </script>
 </head>
 
 <style>
@@ -18,76 +29,56 @@
 </style>
 
     <body>
-        <nav class="navbar navbar-expand-lg bg-light">
-        <a class="navbar-brand" href="home.html">
-            <img src="witham_logo.png" width="81" height="80" alt="Logo"></a>
-            <ul class="navbar-nav">
-            <div class="container-fluid">              
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="home.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="hyungs.html">Hyungs</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="grades.html">Grades</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdownMenuButton1" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Study Materials</a>
-                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                            <li><a class="dropdown-item" href="studmat_anatomy.html">Anatomy</a></li>
-                            <li><a class="dropdown-item" href="studmat_history.html">History of Tang Soo Do</a></li>
-                            <li><a class="dropdown-item" href="studmat_philosiphy.html">Philosophy of Tang Soo Do</a></li>
-                            <li><a class="dropdown-item" href="studmat_rules.html">Rules in the Dojang</a></li>
-                            <li><a class="dropdown-item" href="studmat_terminology.html">Terminology</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="club_information.html">Club Information</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="event_sign_up.html">Event Sign Up</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="kyushoshin.html">Kyushoshin</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="essays.html">Essays</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="instructors.html">Instructors</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+        <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <div class="topnav" id="myTopnav">
+    <a class="navbar-brand" href="home.html">
+        <img src="witham_logo.png" width="81" height="80" alt="Logo">
+    </a>
+    <a href="#home">Home</a>
+    <a href="hyungs.html">Hyungs</a>
+    <a href="grades.html">Grades</a>
+    <div class="dropdown">
+    <button class="dropbtn">Study materials
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="studmat_anatomy.html">Anatomy</a>
+      <a href="studmat_philosiphy.html">Philosophy</a>
+      <a href="studmat_history.html">History</a>
+      <a href="studmat_rules.html">Rules</a>
+      <a href="studmat_terminology.html">Terminology</a>
+    </div>
+  </div>
+  <a href="club_information.html">Club information</a>
+  <a href="event_sign_up.html">Event sign up</a>
+  <a href="kyushoshin.html">Kyushoshin</a>
+  <a href="essays.html">Essays</a>
+  <a href="instructors.html">Instructors</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
 
     <h2>Instructors</h2>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-4">
-                <!--img src = file name of picture-->
-                <!--alt = accessibility feature, image description-->
-                <!--p id italics = instructor name-->
+            <div class="col-sm-4">
                 <img src="yola.jpg" alt="Instructor Yola Middleton" width="100%">
                 <p id="italics">Yola</p>
                 <p>Master Yola Middleton is the Lead Instructor for Witham Tang Soo Do and the main point of contact for the EMTF, the Tang Soo Do federation to which the club belongs. She is also the UK representative for Kyushoshin JuJutsu, supporting the growth and development of the art nationally. With over 40 years of martial arts experience, Master Yola holds a Master Belt in Tang Soo Do, a 2nd Dan in Kyushoshin JuJutsu, and a 1st Dan in Kodokan Jutsu Kai, alongside a variety of other grades across different martial arts styles. Her depth of knowledge reflects a lifelong commitment to training, learning, and sharing martial arts in its many forms. Master Yola has supported both of her children through to 3rd Dan, and her greatest passion lies in teaching and encouraging students to become the very best they can be, both on and off the mat.</p>
             </div>
-            <div class="col-4">
+            <div class="col-sm-4">
                 <img src="anya.jpg" alt="Instructor Anya Middleton" width="100%">
                 <p id="italics">Anya</p>
                 <p>I’m Anya, 3rd Dan Tang Soo Do and 1st Dan Kyushoshin Jiu Jutsu. I love teaching self-defence (although Master Yola is of course better) and the EMTF Chil Sung forms – which you should all learn… but you may be there for a while! I recently started my own club at Sunderland University but come back to Witham/Waddington whenever I can.</p>
             </div>
-            <div class="col-4">
+            <div class="col-sm-4">
                 <img src="simon.jpg" alt="Instructor Simon" width="100%">
                 <p id="italics">Simon</p>
                 <p>Simon Joy is the British Martial Arts and Boxing Association recognised Lead Instructor and Safeguarding lead at Waddington. With over 38 years of martial arts experience, his early training saw him achieve 3rd Kyu in Shotokan Karate and 1st Dan in WTF Taekwondo. He is 3rd Dan in Tang Soo Do and is training for his 1st Dan in Kyushoshin Ju-Jutsu. He trained both his sons to Black Belt, and he loves kicks, sparring and supporting the students exceed their highest expectations.</p>
             </div>
         </div>
     </div>
-
-
-
-
     </body>
 </html>
