@@ -11,8 +11,22 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mozilla+Text:wght@200..700&display=swap" rel="stylesheet">
+    <script>
+    /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+    function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+    }
+    </script>
 </head>
     <body>
+        <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
         <nav class="navbar navbar-expand-lg bg-light">
         <a class="navbar-brand" href="home.html">
             <img src="witham_logo.png" width="81" height="80" alt="Logo"></a>
@@ -64,7 +78,7 @@
         <div class="container-fluid">
             <div class="row">
                 <h2>White tag 9th Gup</h2>
-                <div class="col-6">
+                <div class="col-sm-6">
                     <p id="italics">Eligibility</p>
                     <p>The student must be a member of the European Moo Duk Kwan Tang Soo Do Federation (EMTF)</p>
                     <p>Regular class attendance</p>
@@ -89,7 +103,7 @@
                     <p>Side kick</p>
                     <p>Hook kick</p>
                 </div>
-                <div class="col-6">
+                <div class="col-sm-6">
                     <p id="italics">Stances</p>
                     <p>1. Attention stance (Cha Ryut) the legs are straight and touching each other</p>
                     <p>2. Ready stance (Choon Bee Ja Seh) feet are one shoulder length apart and arms are held loosely to the side with the fists about one fist-length away from the body</p>
@@ -119,7 +133,7 @@
         <div class="container-fluid">
             <div class="row">
                 <h2>Orange belt 8th Gup</h2>
-                <div class="col-6">
+                <div class="col-sm-6">
                     <p id="italics">Eligibility</p>
                     <p>Sound moral character</p>
                     <p>The student must be a member of the European Moo Duk Kwan Tang Soo Do Federation (EMTF)</p>
@@ -146,7 +160,7 @@
                     <p>Hook kick</p>
                     <p>Axe kick</p>
                 </div>
-                <div class="col-6">
+                <div class="col-sm-6">
                     <p id="italics">Stances</p>
                     <p>1. Attention stance (Cha Ryut) the legs are straight and touching each other</p>
                     <p>2. Ready stance (Choon Bee Ja Seh) feet are one shoulder length apart and arms are held loosely to the side with the fists about one fist-length away from the body</p>
@@ -179,7 +193,7 @@
         <div class="container-fluid">
             <div class="row">
                 <h2>Orange tag 7th Gup</h2>
-                <div class="col-6">
+                <div class="col-sm-6">
                     <p id="italics">Eligibility</p>
                     <p>Sound moral character</p>
                     <p>The student must be a member of the European Moo Duk Kwan Tang Soo Do Federation (EMTF)</p>
@@ -206,7 +220,7 @@
                     <p>Hook kick</p>
                     <p>Axe kick</p>
                 </div>
-                <div class="col-6">
+                <div class="col-sm-6">
                     <p id="italics">Stances</p>
                     <p>1. Attention stance (Cha Ryut) the legs are straight and touching each other</p>
                     <p>2. Ready stance (Choon Bee Ja Seh) feet are one shoulder length apart and arms are held loosely to the side with the fists about one fist-length away from the body</p>
@@ -239,7 +253,7 @@
         <div class="container-fluid">
             <div class="row">
                 <h2>Green Belt 6th Gup</h2>
-                <div class="col-6">
+                <div class="col-sm-6">
                     <p id="italics">Eligibility</p>
                     <p>Sound moral character</p>
                     <p>The student must be a member of the European Moo Duk Kwan Tang Soo Do Federation (EMTF)</p>
@@ -260,7 +274,7 @@
                     <p>All previous techniques</p>
                     <p>Spinning kicks</p>
                 </div>
-                <div class="col-6">
+                <div class="col-sm-6">
                     <p id="italics">Stances</p>
                     <p>All previous stances</p>
                     <p>1. Side stance (Sa Ko Rip Ja Seh)</p>
@@ -299,7 +313,7 @@
         <div class="container-fluid">
             <div class="row">
                 <h2>Green Tag 5th Gup</h2>
-                <div class="col-6">
+                <div class="col-sm-6">
                     <p id="italics">Eligibility</p>
                     <p>Sound moral character</p>
                     <p>The student must be a member of the European Moo Duk Kwan Tang Soo Do Federation (EMTF)</p>
@@ -321,7 +335,7 @@
                     <p>Spinning kicks</p>
                     <p>Jumping kicks</p>
                 </div>
-                <div class="col-6">
+                <div class="col-sm-6">
                     <p id="italics">Stances</p>
                     <p>All previous stances</p>
                     <p>1. Side stance (Sa Ko Rip Ja Seh)</p>
@@ -361,7 +375,7 @@
         <div class="container-fluid">
             <div class="row">
                 <h2>Brown Belt 4th Gup</h2>
-                <div class="col-6">
+                <div class="col-sm-6">
                     <p id="italics">Eligibility</p>
                     <p>Sound moral character</p>
                     <p>The student must be a member of the European Moo Duk Kwan Tang Soo Do Federation (EMTF)</p>
@@ -387,8 +401,7 @@
                     <p>Jumping kicks</p>
                     <p>2-3 combinations</p>
                 </div>
-                <div class="col-6">
-
+                <div class="col-sm-6">
                     <p id="italics">Breakfalls</p>
                     <p>Jumping</p>
                     <p>Rolling</p>
@@ -429,7 +442,7 @@
         <div class="container-fluid">
             <div class="row">
                 <h2>Brown Tag 3rd Gup</h2>
-                <div class="col-6">
+                <div class="col-sm-6">
                     <p id="italics">Eligibility</p>
                     <p>Sound moral character</p>
                     <p>The student must be a member of the European Moo Duk Kwan Tang Soo Do Federation (EMTF)</p>
@@ -471,7 +484,7 @@
                     </div>
                 </div>
                 
-                <div class="col-6">  
+                <div class="col-sm-6">  
                     <p id="italics">Self defence (3 techniques for 1-10, 1 technique for 11-15)</p>
                     <p>1. Straight wrist grab</p>
                     <p>2. Diagonal wrist grab</p>
@@ -502,7 +515,7 @@
         <div class="container-fluid">
             <div class="row">
                 <h2>Red Belt 2nd Gup</h2>
-                <div class="col-6">
+                <div class="col-sm-6">
                     <p id="italics">Eligibility</p>
                     <p>High moral character</p>
                     <p>Exhibit some black belt qualities</p>
@@ -532,7 +545,7 @@
                     <p>Demonstration of good level of sparring for competition</p>
                 </div>
 
-                <div class="col-6">
+                <div class="col-sm-6">
                     <p id="italics">Self defence (3 techniques for 1-10, 2 techniques for 11-15)</p>
                     <p>1. Straight wrist grab</p>
                     <p>2. Diagonal wrist grab</p>
